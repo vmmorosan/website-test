@@ -75,8 +75,7 @@ public class CustomerDaoImpl implements CustomerDao{
 
 	@Override
 	public void editCustomer(Customer customer) {
-		session().saveOrUpdate(customer);
-		session().flush();
+		//to do
 		
 	}
 
